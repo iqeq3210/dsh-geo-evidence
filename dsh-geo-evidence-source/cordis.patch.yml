@@ -1,4 +1,0 @@
-- insert:
-    - id: local-geo-evidence
-      name: '@local/dsh-geo-evidence'
-      config: {}
