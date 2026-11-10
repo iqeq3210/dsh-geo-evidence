@@ -1,0 +1,14 @@
+{
+  "name": "@local/dsh-geo-evidence",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "repository": {"type": "git", "url": "https://github.com/iqeq3210/dsh-geo-evidence.git"},
+  "homepage": "https://github.com/iqeq3210/dsh-geo-evidence#readme",
+  "bugs": {"url": "https://github.com/iqeq3210/dsh-geo-evidence/issues"},
+  "type": "module",
+  "description": "Assay-specific GEO omics discovery and sample evidence inspection",
+  "exports": {".": "./index.js", "./locale/*.json": "./locale/*.json", "./icon": "./icon.svg"},
+  "files": ["index.js", "geo_plugin", "cordis.patch.yml", "locale", "icon.svg", "README.md", "LICENSE"],
+  "dsh": {"bundle": {"patch": "./cordis.patch.yml"}}
+}
